@@ -3,5 +3,7 @@ public class Main {
         Balao b1 = new Balao();
         String resultado = b1.voar(new Combustivel());
         System.out.println(resultado);
+
+        Balao b2 = new Balao();
     }
 }

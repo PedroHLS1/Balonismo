@@ -7,6 +7,16 @@ public class Balao {
     double peso;
     String porte;
     int capacidadePessoas;
+
+   //construtor padrão
+    public Balao(){}
+
+    //
+
+
+
+
+
     public String voar(Combustivel gaspropano) {
         return "voando com " + gaspropano;
     }
