@@ -7,6 +7,9 @@ public class Pessoa {
     private  String assinatura;
     private  String endereco;
 
+    public Pessoa() {
+    }
+
     public Pessoa(String nome, int cpf, String rg, int telefone, int emergencia, String assinatura, String endereco) {
         this.nome = nome;
         this.cpf = cpf;

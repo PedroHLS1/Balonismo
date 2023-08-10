@@ -3,6 +3,9 @@ public class Piloto {
     int cpf;
     int anac;
 
+    public Piloto() {
+    }
+
     public Piloto(String nome, int cpf, int anac) {
         this.nome = nome;
         this.cpf = cpf;
